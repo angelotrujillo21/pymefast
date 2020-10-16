@@ -5,8 +5,8 @@ load_script([
     'jquery-ui',
     'popper',
     'bootstrap',
-    'admin/custom',
-    'admin/functions',
+    'frontend/custom',
+    'frontend/functions',
     'moment',
 ]);
 
