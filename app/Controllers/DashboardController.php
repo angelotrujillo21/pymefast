@@ -30,7 +30,7 @@ class DashboardController extends Controller
         try {
 
             $this->view(
-                'frontend/home',
+                'intranet/home',
                 array(
                     'menu'               => true,
                     'titulo'             => 'Home',

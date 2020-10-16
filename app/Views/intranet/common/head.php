@@ -10,10 +10,10 @@
 <?php load_style([
     'bootstrap',
     'jquery-ui',
-    'frontend/style',
-    'frontend/shards-dashboards.1.1.0.min',
-    'frontend/extras.1.1.0.min',
-    'frontend/float-label'
+    'intranet/style',
+    'intranet/shards-dashboards.1.1.0.min',
+    'intranet/extras.1.1.0.min',
+    'intranet/float-label'
     ]);
 
 

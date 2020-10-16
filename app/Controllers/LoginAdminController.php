@@ -24,7 +24,7 @@ class LoginAdminController extends Controller
     {
         try {
             $this->view(
-                'frontend/login',
+                'intranet/login',
                 array(
                     'user'               => $this->session->get('user'),
                     'menu'               => true,

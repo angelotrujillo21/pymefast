@@ -2,7 +2,7 @@
 <html class="no-js h-100" lang="es">
 
 <head>
-    <?php extend_view(['frontend/common/head'], $data) ?>
+    <?php extend_view(['intranet/common/head'], $data) ?>
 
 </head>
 
@@ -55,6 +55,6 @@
 
 </body>
 
-<?php extend_view(['frontend/common/scripts'], $data) ?>
+<?php extend_view(['intranet/common/scripts'], $data) ?>
 
 </html>

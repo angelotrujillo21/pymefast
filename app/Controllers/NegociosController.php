@@ -30,7 +30,7 @@ class NegociosController extends Controller
     {
         try {
             $this->view(
-                'frontend/mis-negocios',
+                'intranet/mis-negocios',
                 array(
                     'user'                   => $this->session->get('user'),
                     'menu'                   => false,

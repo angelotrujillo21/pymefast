@@ -2,7 +2,7 @@
 <html class="no-js h-100" lang="es">
 
 <head>
-    <?php extend_view(['frontend/common/head'], $data) ?>
+    <?php extend_view(['intranet/common/head'], $data) ?>
 
 </head>
 
@@ -17,11 +17,11 @@
 
         <div class="row">
 
-            <?php extend_view(['frontend/common/aside'], $data) ?>
+            <?php extend_view(['intranet/common/aside'], $data) ?>
 
             <main class="main-content col-lg-10 col-md-9 col-sm-12 p-0 offset-lg-2 offset-md-3">
 
-                <?php extend_view(['frontend/common/navbar'], $data) ?>
+                <?php extend_view(['intranet/common/navbar'], $data) ?>
 
                 <div class="main-content-container container-fluid px-2">
 
@@ -793,7 +793,7 @@
     const simbolo_moneda = '<?= SIMBOLO_MONEDA ?>';
 </script>
 
-<?php extend_view(['frontend/common/scripts'], $data) ?>
+<?php extend_view(['intranet/common/scripts'], $data) ?>
 
 
 <script>
