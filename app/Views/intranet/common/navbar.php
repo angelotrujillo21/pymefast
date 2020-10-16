@@ -20,7 +20,7 @@
                 <a class="nav-link nav-link-icon text-center" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                     <div class="nav-link-icon__wrapper">
                         <i class="material-icons">&#xE7F4;</i>
-                        <span class="badge badge-pill badge-danger">2</span>
+                        <span class="badge badge-pill badge-danger">1</span>
                     </div>
                 </a>
                 <div class="dropdown-menu dropdown-menu-small" aria-labelledby="dropdownMenuLink">
@@ -31,19 +31,8 @@
                             </div>
                         </div>
                         <div class="notification__content">
-                            <span class="notification__category">Prospecto - 0001</span>
-                            <p>Se Realizo la primera Cita con el cliente</p>
-                        </div>
-                    </a>
-                    <a class="dropdown-item" href="#">
-                        <div class="notification__icon-wrapper">
-                            <div class="notification__icon">
-                                <i class="material-icons">message</i>
-                            </div>
-                        </div>
-                        <div class="notification__content">
-                            <span class="notification__category">Prospecto - 0002</span>
-                            <p>Se Realizo la primera Cita con el cliente</p>
+                            <span class="notification__category">Prestamo - 0001</span>
+                            <p>Tu prestamo se desembolso</p>
                         </div>
                     </a>
                     <a class="dropdown-item notification__all text-center" href="#"> Ver todos los mensajes </a>

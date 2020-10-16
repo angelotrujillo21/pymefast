@@ -24,15 +24,15 @@
                 <div class="menu-item">
                     <li class="nav-item padre">
                         <a class="nav-link" href="javascript:;">
-                            <i class="material-icons">dashboard</i>
-                            <span> Dashboard </span>
+                            <i class="material-icons">payment</i>
+                            <span> Informacion de cuentas </span>
                         </a>
                     </li>
                     <div class="nav-submenus">
                         <li class="nav-item">
-                            <a class="nav-link reportes item__menu__link" href="#">>
+                            <a class="nav-link reportes item__menu__link" href="#">
                                 <i class="material-icons">chevron_right</i>
-                                <span>Home</span>
+                                <span>Cuentas Juridicas</span>
                             </a>
                         </li>
                     </div>
@@ -42,14 +42,14 @@
                     <li class="nav-item padre">
                         <a class="nav-link" href="javascript:;">
                             <i class="material-icons">settings</i>
-                            <span> Configuracion </span>
+                            <span> Financiacion </span>
                         </a>
                     </li>
                     <div class="nav-submenus">
                         <li class="nav-item">
                             <a class="nav-link reportes item__menu__link" href="#">
                                 <i class="material-icons">chevron_right</i>
-                                <span>Prospectos</span>
+                                <span>Prestamos</span>
                             </a>
                         </li>
 
@@ -66,12 +66,7 @@
                     </li>
                     <div class="nav-submenus">
 
-                        <li class="nav-item">
-                            <a class="nav-link reportes item__menu__link" href="<?= route('admin/mis-negocios/')?>">
-                                <i class="material-icons">chevron_right</i>
-                                <span>Mis Negocios</span>
-                            </a>
-                        </li>
+                     
 
                         <li class="nav-item">
                             <a class="nav-link reportes item__menu__link" href="<?= route('admin/salir/')?>">

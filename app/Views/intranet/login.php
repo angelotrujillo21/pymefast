@@ -28,7 +28,7 @@
                             </div>
                             <h4>¡Hola! empecemos</h4>
                             <h6 class="font-weight-light">Inicia sesión para continuar.</h6>
-                            <form method="post" action="" class="pt-3">
+                            <form method="post" action="<?=route('informacion-cuentas/cuentas-juridicas/')?>" class="pt-3">
                             
                                 <div class="form-group">
                                     <input type="text" name="sUsuario" class="form-control form-control-lg" id="sUsuario"

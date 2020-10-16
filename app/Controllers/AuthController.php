@@ -6,7 +6,7 @@ use Exception;
 use Application\Libs\Session;
 use Application\Core\Controller as Controller;
 
-class LoginAdminController extends Controller
+class AuthController extends Controller
 {
 
     //model principal
