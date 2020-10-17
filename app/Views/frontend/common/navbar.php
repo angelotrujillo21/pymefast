@@ -27,7 +27,7 @@
 
 
 <nav class="navbar navbar-expand-lg bg-banca text-uppercase fixed-top" id="mainNav">
-    <div class="container-fluid">
+    <div class="container">
         <a class="navbar-brand js-scroll-trigger" href="#page-top" >
             <img src="<?= src('multi/logo_bbva.svg') ?>" width="180px">
         </a>
@@ -38,13 +38,13 @@
         <div class="collapse navbar-collapse" id="navbarResponsive" style="margin-left: 5rem;">
             <ul class="navbar-nav">
 <!--            <ul class="navbar-nav ml-auto">-->
-                <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#portfolio" style="font-size: 2em;">Personas</a></li>
-                <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#about" style="font-size: 2em;">Empresas</a></li> 
+                <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#portfolio" style=";">Personas</a></li>
+                <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#about" style=";">Empresas</a></li> 
             </ul>
             <div class="menu">
                 <ul>
-                    <li><a href="" style="font-size: 2em; background-color: #02a5a5; color:white; text-transform: capitalize  !important;">BBVA Credi Net</a></li>
-                    <li><a href="" style="font-size: 2em; color:#efb728; margin-right: 1rem; text-transform: capitalize  !important;"><i class="fa fa-user-plus"></i> Hazte cliente</a></li>
+                    <li><a href="" style="; background-color: #02a5a5; color:white; text-transform: capitalize  !important;">BBVA Credi Net</a></li>
+                    <li><a href="" style="; color:#efb728; margin-right: 1rem; text-transform: capitalize  !important;"><i class="fa fa-user-plus"></i> Hazte cliente</a></li>
                 </ul>
             </div>
         </div>
