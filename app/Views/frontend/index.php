@@ -23,7 +23,7 @@
             <!-- Masthead Subheading-->
             <p class="masthead-subheading font-weight-light mb-0 my-1">Realiza tu tramite sin salir de casa</p>
 
-            <form class="form-inline form-simulacion mt-4">
+            <form class="form-inline form-simulacion mt-4 d-flex justify-content-center">
                 <div class="form-group mb-2">
                     <input type="text" class="form-control" id="txtMonto" placeholder="Monto" required="required" data-validation-required-message="Por Favor ingrese el Monto.">
                     <p class="help-block text-danger"></p>
@@ -110,64 +110,86 @@
     <section class="page-section seccion-2 text-black mb-0" id="about">
         <div class="container-fluid">
             <!-- About Section Content-->
-            <div class="row">
-                <div class="col-lg-3 ml-auto bg-seccion2">
-                    <h1>
-                        ¿Para qué puedes utilizarlo?
-                    </h1>
-                    <p class="lead">
-                        Asegura un flujo de activos constante a corto plazo para tus empleados y/o negocio.
-                    </p>
+            <div class="row no-gutters">
+                <div class="col-lg-4 ml-auto bg-seccion2">
+                    <div class="p-0 p-lg-3">
+                        <h1 class="font-weight-bold">
+                            ¿Para qué puedes utilizarlo?
+                        </h1>
+                        <p class="lead">
+                            Asegura un flujo de activos constante a corto plazo para tus empleados y/o negocio.
+                        </p>
+                    </div>
                 </div>
-                <div class="col-lg-3 ml-auto bg-seccion2">
-                    AFRONTAR RETOS IMPREVISTOS
-                    <p class="lead">
-                        Otorga equipamiento o realizar mejoras de salud ocupacional.
-                    </p>
-                </div>
-                <div class="col-lg-3 ml-auto bg-seccion2">
-                    CRECER TU NEGOCIO
-                    <p class="lead">
-                        Asegura la negociación de mejores precios con tus proveedores.
-                    </p>
-                </div>
-                <div class="col-lg-3 ml-auto bg-seccion2">
-                    PAGO DE PROVEEDORES
-                    <p class="lead">
-                        You can create your own
-                    </p>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-3 ml-auto bg-seccion2">
-                    <h1>
-                        ¿Qué necesitas para solicitarlo?
-                    </h1>
-                    <p class="lead">
-                        Asegura un flujo de activos constante a corto plazo para tus empleados y/o negocio.
-                    </p>
-                </div>
-                <div class="col-lg-3 ml-auto bg-seccion2">
-                    AFRONTAR RETOS IMPREVISTOS
-                    <p class="lead">
-                        Otorga equipamiento o realizar mejoras de salud ocupacional.
-                    </p>
-                </div>
-                <div class="col-lg-3 ml-auto bg-seccion2">
-                    CRECER TU NEGOCIO
-                    <p class="lead">
-                        Asegura la negociación de mejores precios con tus proveedores.
-                    </p>
-                </div>
-                <div class="col-lg-3 ml-auto bg-seccion2">
-                    PAGO DE PROVEEDORES
-                    <p class="lead">
-                        You can create your own
-                    </p>
+                <div class="col-lg-8 ml-auto bg-seccion2">
+                    <div class="row no-gutters">
+                        <div class="col-lg-4 ml-auto bg-seccion2">
+                            <img src="<?= src('multi/bullet.svg') ?>" alt="">
+                            <div class="w-100"></div>
+                            <p class="font-weight-bold p-0 my-2">AFRONTAR RETOS IMPREVISTOS</p>
+                            <p class="lead">
+                                Asegura un flujo de activos constante a corto plazo para tus empleados y/o negocio.
+                            </p>
+                        </div>
+                        <div class="col-lg-4 ml-auto bg-seccion2">
+                            <img src="<?= src('multi/bullet.svg') ?>" alt="">
+                            <div class="w-100"></div>
+                            <p class="font-weight-bold p-0 my-2">CRECER TU NEGOCIO</p>
+                            <p class="lead">
+                                Otorga empaquetamiento de seguridad ocupacional para tu negocio.
+                            </p>
+                        </div>
+                        <div class="col-lg-4 ml-auto bg-seccion2">
+                            <img src="<?= src('multi/bullet.svg') ?>" alt="">
+                            <div class="w-100"></div>
+                            <p class="font-weight-bold p-0 my-2"> PAGO DE PROVEEDORES </p>
+                            <p class="lead">
+                                Asegura la negociación de mejores precios con tus proveedores.
+                            </p>
+                        </div>
+                    </div>
                 </div>
             </div>
-
-        </div>
+            <div class="row">
+                <div class="col-lg-4 ml-auto bg-seccion2">
+                    <div class="p-0 p-lg-3">
+                        <h1 class="font-weight-bold">
+                            ¿Qué necesitas para solicitarlo?
+                        </h1>
+                        <p class="lead">
+                            Asegura un flujo de activos constante a corto plazo para tus empleados y/o negocio.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-8 ml-auto bg-seccion2">
+                    <div class="row no-gutters">
+                        <div class="col-lg-4 ml-auto bg-seccion2">
+                            <img src="<?= src('multi/bullet.svg') ?>" alt="">
+                            <div class="w-100"></div>
+                            <p class="font-weight-bold p-0 my-2"> SIMULAR TU CRÉDITO </p>
+                            <p class="lead">
+                                Sólo necesitas otorgar tu REU para ello.
+                            </p>
+                        </div>
+                        <div class="col-lg-4 ml-auto bg-seccion2">
+                            <img src="<?= src('multi/bullet.svg') ?>" alt="">
+                            <div class="w-100"></div>
+                            <p class="font-weight-bold p-0 my-2"> CREAR EXPEDIENTE CREDITICIO </p>
+                            <p class="lead">
+                                Como cliente, tu solicitud será más rápida.
+                            </p>
+                        </div>
+                        <div class="col-lg-4 ml-auto bg-seccion2">
+                            <img src="<?= src('multi/bullet.svg') ?>" alt="">
+                            <div class="w-100"></div>
+                            <p class="font-weight-bold p-0 my-2"> ELEGIR TU PRODUCTO </p>
+                            <p class="lead">
+                                Créditos disponibles tanto a corto como a largo plazo.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
     </section>
 
 
