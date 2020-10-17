@@ -10,7 +10,9 @@
 <?php load_style([
     'bootstrap',
     'jquery-ui',
-    'frontend/style'
+    'frontend/style',
+    'frontend/styledevangelo'
+
 ]);
 
 

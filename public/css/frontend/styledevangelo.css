@@ -1,0 +1,46 @@
+ .background-overlay {
+    background: rgba(0, 0, 0, 0.45);
+    opacity: 0.89;
+    transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+    height: 550px;
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+  }
+  
+  .content-credit-fast {
+    z-index: 1000;
+    position: relative;
+  }
+  
+  .form-simulacion input,
+  .form-simulacion button {
+    height: 50px !important;
+  }
+  
+  .btn-simula:hover {
+    color: #fff !important;
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+  }
+  
+  .icon-landing-s1 {
+    font-size: 40px !important;
+    color: #bdbdbd;
+  }
+  
+  .seccion-2 {
+    background: #f4f4f4;
+  }
+  
+  .btn-simula {
+    color: #fff;
+    background-color: #1d73b2;
+    border-color: #1d73b2;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    transition: all 0.2s ease-in-out;
+  }
+  
+  

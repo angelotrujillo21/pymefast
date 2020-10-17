@@ -21,14 +21,9 @@
             <!-- Masthead Heading-->
             <h1 class="masthead-heading mb-0 font-weight-bold">Credi Fast</h1>
             <!-- Masthead Subheading-->
-<<<<<<< HEAD
             <p class="masthead-subheading font-weight-light mb-0 my-1">Realiza tu tramite sin salir de casa</p>
 
             <form class="form-inline form-simulacion mt-4">
-=======
-            <p class="masthead-subheading font-weight-light mb-0 my-1">Realiza tu tramite sin salir de casaa</p>
-            <form class="form-inline">
->>>>>>> origin/santiago
                 <div class="form-group mb-2">
                     <input type="text" class="form-control" id="txtMonto" placeholder="Monto" required="required" data-validation-required-message="Por Favor ingrese el Monto.">
                     <p class="help-block text-danger"></p>
