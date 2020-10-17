@@ -20,7 +20,7 @@
             <!-- Masthead Heading-->
             <h1 class="masthead-heading text-uppercase mb-0 font-weight-bold">Credi Fast</h1>
             <!-- Masthead Subheading-->
-            <p class="masthead-subheading font-weight-light mb-0 my-1">Realiza tu tramite sin salir de casa</p>
+            <p class="masthead-subheading font-weight-light mb-0 my-1">Realiza tu tramite sin salir de casaa</p>
             <form class="form-inline">
                 <div class="form-group mb-2">
                     <input type="text" class="form-control" id="txtMonto" placeholder="Monto" required="required" data-validation-required-message="Por Favor ingrese el Monto.">
