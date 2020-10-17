@@ -190,10 +190,26 @@ button.bg-banca:focus {
   display: flex;
   align-items: center;
   justify-content: center;
-
 }
 .footer-end {
   padding-top: 1rem;
   padding-bottom: 1rem;
-  color:#ffff;
+  color: #ffff;
+}
+
+.btn-icon-footer {
+  color: #072146;
+  background: #02a5a5;
+  border-radius: 50%;
+  height: 45px;
+  line-height: 30px;
+}
+
+.btn-icon-footer:hover {
+  color: #072146 !important;
+  background: #fff;
+}
+
+.text-color-footer {
+  color: #02a5a5;
 }

@@ -10,10 +10,10 @@
                     <!-- Footer Social Icons-->
                     <div class="offset-lg-6 col-lg-3 mb-5 mb-lg-0">
                         <div class="w-100 d-flex align-items-center justify-content-end">
-                            <a class="btn btn-outline-light btn-social mx-1" href="#!"><i class="fab fa-fw fa-facebook-f"></i></a>
-                            <a class="btn btn-outline-light btn-social mx-1" href="#!"><i class="fab fa-fw fa-twitter"></i></a>
-                            <a class="btn btn-outline-light btn-social mx-1" href="#!"><i class="fab fa-fw fa-linkedin-in"></i></a>
-                            <a class="btn btn-outline-light btn-social mx-1" href="#!"><i class="fab fa-fw fa-dribbble"></i></a>
+                            <a class="btn btn-icon-footer mx-1" href="#!"><i class="fab fa-fw fa-facebook-f"></i></a>
+                            <a class="btn btn-icon-footer mx-1" href="#!"><i class="fab fa-fw fa-twitter"></i></a>
+                            <a class="btn btn-icon-footer mx-1" href="#!"><i class="fab fa-fw fa-linkedin-in"></i></a>
+                            <a class="btn btn-icon-footer mx-1" href="#!"><i class="fab fa-fw fa-dribbble"></i></a>
                         </div>
                     </div>
                 </div>
@@ -27,7 +27,7 @@
                     <!-- Footer Social Icons-->
                     <div class="offset-lg-6 col-lg-3 mb-5 mb-lg-0">
                         <div class="w-100 d-flex align-items-center justify-content-end">
-                            <span>Creando oportunidades</span>
+                            <span class="text-color-footer">Creando oportunidades</span>
                         </div>
                     </div>
                 </div>
