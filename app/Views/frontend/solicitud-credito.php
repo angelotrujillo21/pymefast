@@ -22,39 +22,180 @@
 		                    <form id="msform">
 		                    <!-- progressbar -->
 		                        <ul id="progressbar">
-		                            <li class="active step0" id="step1"><strong>Expediente crediticio</strong></li>
+		                            <li class="active" id="step1"><strong>Expediente crediticio</strong></li>
 		                            <li id="step2"><strong>Validación de documentos</strong></li>
 		                            <li id="step3"><strong>Central de riesgos</strong></li>
 		                            <li id="step4"><strong>Gestor de desembolso</strong></li>
 		                        </ul> <!-- fieldsets -->
 		                            <fieldset>
-		                                 <div class="row no-gutters">
-		                                 	<h3 class="text-left">Adjunta los Siguientes Documentos</h3>
-		                                 	<div class="col-lg-2 ml-auto bg-seccion2">
-					                        </div>
-					                        <div class="col-lg-8 ml-auto bg-seccion2 ">
-					                            <p class="p-0 my-2 flex-center"><img src="<?= src('multi/bullet.svg') ?>" alt=""> Copia DNI empleados y representante. </p>
-					                            <p class="p-0 my-2"><img src="<?= src('multi/bullet.svg') ?>" alt="">Recibo de agua o luz. </p>
-					                            <p class="p-0 my-2"><img src="<?= src('multi/bullet.svg') ?>" alt=""> Hoja de resumen. </p>
-					                            <p class="p-0 my-2"><img src="<?= src('multi/bullet.svg') ?>" alt="">Predio urbano. </p>
+		                            	 <div class="container">
+           								 <!--  Grid Items-->
+										    <div class="row">
+										                <div class="col-lg ml-auto bg-seccion2">
+										                    <h5 class="text-left">
+										                        Adjunta los Siguientes documentos.
+										                    </h5>
+										                    <div class="row">
+										                    	<div class="col text-right">                            
+										                            <div class="w-100"></div>
+										                           <img src="<?= src('multi/bullet.svg') ?>" alt="">
 
-					                        </div>
-					                        <div class="col-lg-2 ml-auto bg-seccion2">
-					                        </div>
-                    					</div>
-		                                <input type="button" name="next" class="next action-button" value="Next Step" />
+										                        </div>
+										                        <div class="col text-left">                            
+										                            <div class="w-100"></div>
+										                           Copia DNI empleados y representante.
+
+										                        </div>
+										                        <div class="col text-left">                            
+										                            <div class="w-100"></div>
+										                           <img src="<?= src('multi/bullet.svg') ?>" alt="">
+
+										                        </div>
+										                    </div>
+										                     <div class="row">
+										                     	<div class="col text-right">                            
+										                            <div class="w-100"></div>
+										                           <img src="<?= src('multi/bullet.svg') ?>" alt="">
+
+										                        </div>
+										                        <div class="col text-left">                            
+										                            <div class="w-100"></div>
+										                           Recibo de agua o luz.
+
+										                        </div>
+										                        <div class="col text-left">                            
+										                            <div class="w-100"></div>
+										                           <img src="<?= src('multi/bullet.svg') ?>" alt="">
+
+										                        </div>
+										                    </div>
+										                        <div class="row">
+										                     	<div class="col text-right">                            
+										                            <div class="w-100"></div>
+										                           <img src="<?= src('multi/bullet.svg') ?>" alt="">
+
+										                        </div>
+										                        <div class="col text-left">                            
+										                            <div class="w-100"></div>
+										                           Hoja de resumen.
+
+										                        </div>
+										                        <div class="col text-left">                            
+										                            <div class="w-100"></div>
+										                           <img src="<?= src('multi/bullet.svg') ?>" alt="">
+
+										                        </div>
+										                    </div>
+										                        <div class="row">
+										                     	<div class="col text-right">                            
+										                            <div class="w-100"></div>
+										                           <img src="<?= src('multi/bullet.svg') ?>" alt="">
+
+										                        </div>
+										                        <div class="col text-left">                            
+										                            <div class="w-100"></div>
+										                           Predio urbano.
+
+										                        </div>
+										                        <div class="col text-left">                            
+										                            <div class="w-100"></div>
+										                           <img src="<?= src('multi/bullet.svg') ?>" alt="">
+
+										                        </div>
+										                    </div>
+
+										                </div>
+										    </div>
+										    <div class="row">
+										        <div class="col-lg ml-auto bg-seccion2">
+										            <h5 class="text-left">
+										            Carga de documentos.
+										            </h5>
+										            <div class="row">
+										                <div class="col text-right">                            
+										                            <div class="w-100"></div>
+										                           <img src="<?= src('multi/bullet.svg') ?>" alt="">
+
+										                        </div>
+										                        <div class="col text-left">                            
+										                            <div class="w-100"></div>
+										                           		Copia(s) DNI. 
+
+										                        </div>
+										                        <div class="col text-left">                            
+										                            <div class="w-100"></div>
+										                           <img src="<?= src('multi/bullet.svg') ?>" alt="">
+
+										                        </div>
+										                    </div>
+										                     <div class="row">
+										                     	<div class="col text-right">                            
+										                            <div class="w-100"></div>
+										                           <img src="<?= src('multi/bullet.svg') ?>" alt="">
+
+										                        </div>
+										                        <div class="col text-left">                            
+										                            <div class="w-100"></div>
+										                           Recibo de agua o luz.
+
+										                        </div>
+										                        <div class="col text-left">                            
+										                            <div class="w-100"></div>
+										                           <img src="<?= src('multi/bullet.svg') ?>" alt="">
+
+										                        </div>
+										                    </div>
+										                        <div class="row">
+										                     	<div class="col text-right">                            
+										                            <div class="w-100"></div>
+										                           <img src="<?= src('multi/bullet.svg') ?>" alt="">
+
+										                        </div>
+										                        <div class="col text-left">                            
+										                            <div class="w-100"></div>
+										                           Hoja de resumen.
+
+										                        </div>
+										                        <div class="col text-left">                            
+										                            <div class="w-100"></div>
+										                           <img src="<?= src('multi/bullet.svg') ?>" alt="">
+
+										                        </div>
+										                    </div>
+										                        <div class="row">
+										                     	<div class="col text-right">                            
+										                            <div class="w-100"></div>
+										                           <img src="<?= src('multi/bullet.svg') ?>" alt="">
+
+										                        </div>
+										                        <div class="col text-left">                            
+										                            <div class="w-100"></div>
+										                           Predio urbano.
+
+										                        </div>
+										                        <div class="col text-left">                            
+										                            <div class="w-100"></div>
+										                           <img src="<?= src('multi/bullet.svg') ?>" alt="">
+
+										                        </div>
+										                    </div>
+
+										                </div>
+										    </div>
+        								</div>
+			                                	<input type="button" name="next" class="next action-button btn-lg" value="Siguiente " />		                                	
 		                            </fieldset>
 		                            <fieldset>
-		                                <input type="button" name="previous" class="previous action-button-previous" value="Previous" /> 
-		                                <input type="button" name="next" class="next action-button" value="Next Step" />
+		                                <input type="button" name="previous" class="previous action-button-previous btn-lg" value="Anterior" /> 
+		                                <input type="button" name="next" class="next action-button" value="Siguiente" />
 		                            </fieldset>
 		                            <fieldset>
-		                                <input type="button" name="previous" class="previous action-button-previous" value="Previous" /> 
+		                                <input type="button" name="previous" class="previous action-button-previous btn-lg" value="Anterior" /> 
 		                                <input type="button" name="make_payment" class="next action-button" value="Confirm" />
 		                            </fieldset>
 		                             <fieldset>
-		                                <input type="button" name="previous" class="previous action-button-previous" value="Previous" /> 
-		                                <input type="button" name="make_payment" class="next action-button" value="Confirm" />
+		                                <input type="button" name="previous" class="previous action-button-previous btn-lg" value="Anterior" /> 
+		                                <input type="button" name="make_payment" class="next action-button btn-lg" value="Confirm" />
 		                            </fieldset>
 		                            <fieldset>
 		                                <div class="form-card">
