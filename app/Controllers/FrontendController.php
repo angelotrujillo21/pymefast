@@ -54,4 +54,19 @@ class FrontendController extends Controller
             $this->json(array("error" => $ex->getMessage()));
         }
     }
+
+     public function solicitudCredito()
+    {
+        try {
+
+            $this->view(
+                'frontend/solicitud-credito',
+                array(
+                    'titulo' => 'Solicitud Credito'
+                )
+            );
+        } catch (Exception $ex) {
+            $this->json(array("error" => $ex->getMessage()));
+        }
+    }
 }

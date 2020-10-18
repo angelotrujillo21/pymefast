@@ -11,10 +11,10 @@
     'bootstrap',
     'jquery-ui',
     'frontend/style',
-    'frontend/styledevangelo'
+    'frontend/styledevangelo',
+    'frontend/styledevanesa'
 
 ]);
-
 
 load_style_plugin([
     'toast/toastr.min',
@@ -22,6 +22,7 @@ load_style_plugin([
     'select2/select2-bootstrap',
     'bootstrap-table/bootstrap-table'
 ]);
+
 ?>
 
 <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
