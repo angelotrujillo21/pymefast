@@ -55,14 +55,24 @@ class FrontendController extends Controller
         }
     }
 
+<<<<<<< HEAD
     public function simulacion()
+=======
+     public function solicitudCredito()
+>>>>>>> origin/vannesa
     {
         try {
 
             $this->view(
+<<<<<<< HEAD
                 'frontend/simulacion',
                 array(
                     'titulo' => 'Simulacion'
+=======
+                'frontend/solicitud-credito',
+                array(
+                    'titulo' => 'Solicitud Credito'
+>>>>>>> origin/vannesa
                 )
             );
         } catch (Exception $ex) {

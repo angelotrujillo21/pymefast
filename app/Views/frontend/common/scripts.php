@@ -21,6 +21,6 @@ load_script_plugin(
         'bootstrap-table/export/tableExport/jquery.base64',
         'bootstrap-table/export/tableExport/tableExport',
         'bootstrap-table/export/bootstrap-table-export',
-
+        'wizard/wizard',
     ]
 );
