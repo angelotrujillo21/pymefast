@@ -32,6 +32,8 @@
 
 .seccion-2 {
   background: #f4f4f4;
+  position: relative;
+  z-index: 1000;
 }
 
 .btn-simula {
