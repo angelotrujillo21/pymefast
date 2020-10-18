@@ -1,11 +1,17 @@
 <?php
 
-$router->get('/', 'FrontendController@index');
-$router->get('plantilla', 'FrontendController@plantilla');
-$router->get('solicitud-credito', 'FrontendController@solicitudCredito');
+$router->any('/', 'FrontendController@index');
+$router->any('plantilla', 'FrontendController@plantilla');
+
+$router->any('credito-aprobado', 'FrontendController@creditoAprobado');
+$router->any('consultar-estado', 'FrontendController@consultarEstado');
+$router->any('simulacion-denegada', 'FrontendController@simulacionDenegada');
+$router->any('no-cliente-aprobado', 'FrontendController@noClienteAprobado');
+$router->any('no-cliente-denegado', 'FrontendController@noClienteDegenado');
+
 
 $router->any('informacion-cuentas/cuentas-juridicas', 'MisCuentasController@cuentasJuridicas');
-$router->get('credi-fast', 'AuthController@acceso');
+$router->any('credi-fast', 'AuthController@acceso');
 
 
 

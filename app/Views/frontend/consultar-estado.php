@@ -15,7 +15,7 @@
     <?php extend_view(['frontend/common/navbar'], $data) ?>
 
 
-    <div class="container-flujo">
+    <div id="seccion1" class="container-flujo">
         <div class="container">
             <div class="w-100 my-2">
                 <img class="d-inline" src="<?= src('multi/bullet.svg') ?>" alt="">
@@ -24,9 +24,9 @@
 
             <div class="flex-center mt-5">
                 <div>
-                    <input type="text" class="form-control d-block input-simulador" placeholder="RUC">
+                    <input type="text" class="form-control d-block input-simulador" placeholder="Folio">
                     <div class="w-100 flex-center my-3">
-                        <button class="btn btn-simular-flujo btn-block font-weight-bold">Simula tu crédito</button>
+                        <button id="btn-simular" class="btn btn-simular-flujo btn-block font-weight-bold">Enviar</button>
                     </div>
                 </div>
             </div>
@@ -36,7 +36,7 @@
 
 
 
-    <div class="container-flujo">
+    <div id="seccion2" class="container-flujo" style="height: 600px !important;">
         <div class="container">
             <div class="w-100 my-2">
                 <img class="d-inline" src="<?= src('multi/bullet.svg') ?>" alt="">
@@ -44,13 +44,21 @@
             </div>
 
             <div class="flex-center mt-lg-5 mt-0">
-                <div class="text-center">
-                    <div>
-                        <h1 class="font-weight-bold">Desembolso de monto aprobado </h1>
-                        <span class="material-icons icon-check "> check_circle_outline </span>
+                <div class="text-center w-100">
+                    <!-- progressbar -->
+                    <ul id="progressbar">
+                        <li class="active" id="step1"><strong>Expediente crediticio</strong></li>
+                        <li class="active" id="step2"><strong>Validación de documentos</strong></li>
+                        <li id="step3"><strong>Central de riesgos</strong></li>
+                        <li id="step4"><strong>Gestor de desembolso</strong></li>
+                    </ul> <!-- fieldsets -->
+
+                    <div class="my-2">
+                        <h3 >Tus documentos han sido validados y están <br> siendo enviados a Central de riesgos.</h3>
+                        <h5 >En menos de 12 horas tendrás una respuesta.</h5>
                     </div>
                     <div class="w-20 flex-center my-3">
-                        <button class="btn btn-simular-flujo mx-2 font-weight-bold w-200">Solicitar crédito</button>
+                        <button class="btn btn-simular-flujo mx-2 font-weight-bold w-200">Aceptar</button>
                     </div>
                 </div>
             </div>
@@ -73,7 +81,17 @@
 
 
 <script>
-    $(function() {});
+    $(function() {
+
+        $("#seccion2").hide();
+
+        $("#btn-simular").click(function() {
+            console.log(1);
+            $("#seccion1").hide();
+            $("#seccion2").show();
+        });
+
+    });
 </script>
 
 

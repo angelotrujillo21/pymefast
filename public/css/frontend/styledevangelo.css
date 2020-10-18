@@ -15,7 +15,9 @@
 }
 
 .form-simulacion input,
-.form-simulacion button {
+.form-simulacion button ,
+.form-simulacion select
+{
   height: 50px !important;
 }
 
@@ -60,8 +62,8 @@
 
 .btn-simular-flujo:hover {
   background: #fff;
-  color: #1d73b2;
-  border: 1px solid #1d73b2;
+  color: #1d73b2 !important;
+  border: 1px solid #1d73b2 !important;
   transition: all 0.2s ease;
 }
 
@@ -78,6 +80,31 @@
   color: #1d73b2;
 }
 
-.w-200{
+.w-200 {
   width: 200px;
+}
+
+.icon-clip {
+  color: #1d73b2;
+}
+
+.linea {
+  width: 150px;
+  height: 4px;
+  background: #c4c4c4;
+  display: inline-block;
+  margin-left: 50px;
+}
+
+.text-folio{
+  color: #1D73B2;
+  font-size: 30px;
+line-height: 35px;
+
+}
+
+.monto-solicitado{
+  margin-bottom: 5px;
+font-size: 25px;
+color: #fff;
 }

@@ -23,18 +23,46 @@
             <!-- Masthead Subheading-->
             <p class="masthead-subheading font-weight-light mb-0 my-1">Realiza tu tramite sin salir de casa</p>
 
-            <form class="form-inline form-simulacion mt-4 d-flex justify-content-center">
+            <form method="post" action="<?= route('credito-aprobado') ?>" class="form-inline form-simulacion mt-4 d-flex justify-content-center">
                 <div class="form-group mb-2">
                     <input type="text" class="form-control" id="txtMonto" placeholder="Monto" required="required" data-validation-required-message="Por Favor ingrese el Monto.">
                     <p class="help-block text-danger"></p>
                 </div>
                 <div class="form-group mx-sm-3 mb-2">
-                    <input type="text" class="form-control" id="txtPlazo" placeholder="Plazo" required="required" data-validation-required-message="Por Favor ingrese el plazo.">
+                    <select class="form-control" name="plazo" id="plazo">
+                        <option value="">Tipo de cuotas</option>
+                        <option value="">Cuotas Fijas</option>
+                        <option value="">Solo intereses</option>
+                    </select>
                     <p class="help-block text-danger"></p>
                 </div>
 
                 <div class="form-group mx-sm-3 mb-2">
-                    <button type="submit" class="btn btn-simula btn-lg">Simula tu crédito</button>
+                    <select class="form-control" name="plazo" id="plazo">
+                        <option value="">Plazo</option>
+                        <option value="">1 Año</option>
+                        <option value="">1 y medio</option>
+                        <option value="">2 Años</option>
+                        <option value="">2 y medio</option>
+                        <option value="">3 Años</option>
+                    </select>
+                    <p class="help-block text-danger"></p>
+                </div>
+
+                <div class="form-group mx-sm-3 mb-2">
+                    <button id="btn-simula" type="button" class="btn btn-simula btn-lg">Simula tu crédito</button>
+                </div>
+
+                <div id="mi-monto" style="display: none;"> 
+                    <div class="form-group mx-sm-3 mb-2  d-block">
+                        <p class="mb-0" style="font-size: 18px;">Mi cuota mensual sería:</p>
+                        <p id="monto-solicitado" class="monto-solicitado">
+                            <strong>
+                                S/ 508.00
+                            </strong>
+                        </p>
+                        <button id="btn-send" type="button" class="btn btn-simula btn-lg">Solicitar credito</button>
+                    </div>
                 </div>
 
             </form>
@@ -55,7 +83,7 @@
                     <p class="lead">
                         Simula tu crédito y, si tus ventas anuales no superan a los 1, 700 UIT, podrás solicitar el Credi Fast que se adecue a las necesidades de tu empresa
                     </p>
-                    <small>Si ya comenzaste una solicitud de crédito y quieres consultar su estado, presiona aquí.</small>
+                    <small style="font-size: 14px;font-weight: 700;" >Si ya comenzaste una solicitud de crédito y quieres consultar su estado, presiona <a style="color:#fff;" href="<?= route('consultar-estado') ?>">aquí.</a> </small>
                 </div>
                 <div class="col-lg-7 ml-auto bg-seccion2">
                     <h6>
@@ -207,7 +235,40 @@
 
 
 <script>
-    $(function() {});
+    $(function() {
+        $("#mi-monto").hide();
+
+        $("#btn-simula").click(function() {
+
+            var monto = parseFloat($("#txtMonto").val());
+            var mono_mensual = parseFloat(monto / 12) + parseFloat((monto / 12) * 0.22);
+
+            $("#monto-solicitado").html(mono_mensual.toFixed(2));
+            $("#mi-monto").show();
+        });
+
+        $("#btn-send").click(function() {
+            var monto = parseFloat($("#txtMonto").val());
+
+            if (monto <= 5000) {
+                document.location = route('credito-aprobado');
+            }
+
+            if (monto >= 5001 && monto <= 6000) {
+                document.location = route('simulacion-denegada');
+            }
+
+            if (monto >= 6001 && monto <= 7000) {
+                document.location = route('no-cliente-aprobado');
+            }
+
+            if (monto >= 7001 && monto <= 9000) {
+                document.location = route('no-cliente-denegado');
+            }
+
+
+        });
+    });
 </script>
 
 

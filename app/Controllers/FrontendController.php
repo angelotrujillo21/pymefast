@@ -103,14 +103,74 @@ class FrontendController extends Controller
 
 
 
-    public function simulacion()
+    public function creditoAprobado()
     {
         try {
 
             $this->view(
-                'frontend/simulacion',
+                'frontend/creadito-aprobado',
                 array(
-                    'titulo' => 'Flujo'
+                    'titulo' => 'Credito Aprobado'
+                )
+            );
+        } catch (Exception $ex) {
+            $this->json(array("error" => $ex->getMessage()));
+        }
+    }
+
+    public function consultarEstado()
+    {
+        try {
+
+            $this->view(
+                'frontend/consultar-estado',
+                array(
+                    'titulo' => 'Consultar Estado'
+                )
+            );
+        } catch (Exception $ex) {
+            $this->json(array("error" => $ex->getMessage()));
+        }
+    }
+
+    public function simulacionDenegada()
+    {
+        try {
+
+            $this->view(
+                'frontend/simulacion-denegada',
+                array(
+                    'titulo' => 'Simulacion Denegada'
+                )
+            );
+        } catch (Exception $ex) {
+            $this->json(array("error" => $ex->getMessage()));
+        }
+    }
+
+    public function noClienteAprobado()
+    {
+        try {
+
+            $this->view(
+                'frontend/no-cliente-aprobado',
+                array(
+                    'titulo' => 'Simulacion Aprobado'
+                )
+            );
+        } catch (Exception $ex) {
+            $this->json(array("error" => $ex->getMessage()));
+        }
+    }
+
+    public function noClienteDegenado()
+    {
+        try {
+
+            $this->view(
+                'frontend/no-cliente-denegado',
+                array(
+                    'titulo' => 'Simulacion Aprobado'
                 )
             );
         } catch (Exception $ex) {
@@ -119,5 +179,13 @@ class FrontendController extends Controller
     }
 
 
+
+
+    
+
+    
+
+
+    
 
 }
