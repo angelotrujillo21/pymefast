@@ -54,4 +54,19 @@ class FrontendController extends Controller
             $this->json(array("error" => $ex->getMessage()));
         }
     }
+
+    public function simulacion()
+    {
+        try {
+
+            $this->view(
+                'frontend/simulacion',
+                array(
+                    'titulo' => 'Simulacion'
+                )
+            );
+        } catch (Exception $ex) {
+            $this->json(array("error" => $ex->getMessage()));
+        }
+    }
 }

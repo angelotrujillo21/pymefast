@@ -1,46 +1,81 @@
- .background-overlay {
-    background: rgba(0, 0, 0, 0.45);
-    opacity: 0.89;
-    transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
-    height: 550px;
-    width: 100%;
-    top: 0;
-    left: 0;
-    position: absolute;
-  }
-  
-  .content-credit-fast {
-    z-index: 1000;
-    position: relative;
-  }
-  
-  .form-simulacion input,
-  .form-simulacion button {
-    height: 50px !important;
-  }
-  
-  .btn-simula:hover {
-    color: #fff !important;
-    border-top-right-radius: 0px;
-    border-bottom-left-radius: 0px;
-  }
-  
-  .icon-landing-s1 {
-    font-size: 40px !important;
-    color: #bdbdbd;
-  }
-  
-  .seccion-2 {
-    background: #f4f4f4;
-  }
-  
-  .btn-simula {
-    color: #fff;
-    background-color: #1d73b2;
-    border-color: #1d73b2;
-    border-top-right-radius: 20px;
-    border-bottom-left-radius: 20px;
-    transition: all 0.2s ease-in-out;
-  }
-  
-  
+.background-overlay {
+  background: rgba(0, 0, 0, 0.45);
+  opacity: 0.89;
+  transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+  height: 550px;
+  width: 100%;
+  top: 0;
+  left: 0;
+  position: absolute;
+}
+
+.content-credit-fast {
+  z-index: 1000;
+  position: relative;
+}
+
+.form-simulacion input,
+.form-simulacion button {
+  height: 50px !important;
+}
+
+.btn-simula:hover {
+  color: #fff !important;
+  border-top-right-radius: 0px;
+  border-bottom-left-radius: 0px;
+}
+
+.icon-landing-s1 {
+  font-size: 40px !important;
+  color: #bdbdbd;
+}
+
+.seccion-2 {
+  background: #f4f4f4;
+}
+
+.btn-simula {
+  color: #fff;
+  background-color: #1d73b2;
+  border-color: #1d73b2;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  transition: all 0.2s ease-in-out;
+}
+
+.container-flujo {
+  padding-top: calc(6rem + 30px);
+  padding-bottom: 6rem;
+  height: 550px;
+}
+
+.btn-simular-flujo {
+  background: #1d73b2;
+  color: #ffff;
+  transition: all 0.2s ease;
+  height: 50px;
+}
+
+.btn-simular-flujo:hover {
+  background: #fff;
+  color: #1d73b2;
+  border: 1px solid #1d73b2;
+  transition: all 0.2s ease;
+}
+
+.input-simulador,
+.input-simulador:hover,
+.input-simulador:focus {
+  background: #f4f4f4;
+  border-bottom: 3px solid #000000 !important;
+  height: 50px;
+}
+
+.icon-check {
+  font-size: 120px !important;
+  color: #1d73b2;
+}
+
+.w-200{
+  width: 200px;
+}

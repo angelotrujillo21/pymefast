@@ -21,7 +21,7 @@
                 <div class="row footer-end">
                     <!-- Footer Location-->
                     <div class="col-lg-3 mb-5 mb-lg-0  d-flex align-items-center justify-content-center justify-content-md-start">
-                        <span>© 2020 Banco Bilbao Vizcaya Argentaria, S.A.</span>
+                        <span>© 2020 Banco Bilbao  S.A.</span>
                     </div>
 
                     <!-- Footer Social Icons-->
